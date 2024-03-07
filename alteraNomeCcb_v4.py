@@ -8,6 +8,7 @@ caminho_destino = r"C:\Users\NicholasAlmeidaRodri\MEUCASHCARD SERVIÇOS TECNOLOG
 
 conteudo_ccbs = os.listdir(caminho_ccbs)
 
+nome_ccb = "_ccb_negociavel.pdf"
 
 for pasta in conteudo_ccbs:
     
