@@ -24,7 +24,7 @@ for pasta in conteudo_ccbs:
                         
             ultimos_6_caracteres = pasta[-6:]
                         
-            novo_nome_arquivo =  primeiro_arquivo[27:] + ultimos_6_caracteres + "_ccb_negociavel.pdf"
+            novo_nome_arquivo =  primeiro_arquivo[27:] + ultimos_6_caracteres + nome_ccb
                         
             caminho_arquivo_original = os.path.join(caminho_pasta_atual, primeiro_arquivo)
             caminho_arquivo_novo = os.path.join(caminho_pasta_atual, novo_nome_arquivo)
