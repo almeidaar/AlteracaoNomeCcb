@@ -29,11 +29,15 @@ for pasta in conteudo_ccbs:
         # Se a pasta tiver mais de 1 arquivo, adicionar à lista
         if numero_arquivos > 1:
             pastas_com_mais_de_um_arquivo.append(pasta)
+            total_com_mais_de_um_arquivo = len(pastas_com_mais_de_um_arquivo)
 
 # Imprimir as pastas com mais de 1 arquivo
 if pastas_com_mais_de_um_arquivo:
     print("As seguintes pastas possuem mais de 1 arquivo:")
     for pasta in pastas_com_mais_de_um_arquivo:
         print(f"- {pasta}")
+        
 else:
     print("Nenhuma pasta possui mais de 1 arquivo.")
+
+print("Tem o total de ", total_com_mais_de_um_arquivo, " pastas com mais de um arquivo.")
